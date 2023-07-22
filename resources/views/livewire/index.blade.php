@@ -5,7 +5,7 @@
             <th>Last Name</th>
         </tr>
         <tr>
-            @foreach ($collection as $item)
+            @foreach ($apiResponse->items as $item)
                 <tr>
                     <td>{{$item->name}}</td>
                     <td>{{$item->lastName}}</td>
